@@ -12,7 +12,8 @@ const mongoServer = new MongoMemoryServer();
 
 const server = require('./src/server');
 const PORT = process.env.PORT || 3000;
-const MONGODB_URI = 'mongodb://localhost:27017/foodclothes';
+// const MONGODB_URI = 'mongodb://localhost:27017/foodclothes';
+// mongoose.connect(process.env.MONGO_URI, options);
 
 const options = {
   useNewUrlParser: true,
@@ -25,7 +26,6 @@ const options = {
 
 mongoServer.getConnectionString()
   .then(mongoUri => {
-    mongoose.connect(mongoUri, options);
+    mongoose.connect(mongoUri, process.env.MONGO_URI, options);
     server.start(PORT);
   });
-
