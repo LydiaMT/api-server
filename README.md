@@ -105,3 +105,7 @@ In the command line at the root directory, `run npm test` to make sure all test 
 ### UML / WRRC
 
 ![WRRC](assets/wrrcLab04.jpg)
+
+### Contributions 
+
+Thank you to Jarrell Houston for guidance and debugging tips  
