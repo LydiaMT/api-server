@@ -6,13 +6,13 @@
 
 ### Links and Resources
 
-✨ [Deployed Heroku Site Food Route]()
+✨ [Deployed Heroku Site Food Route](https://lydia-api-server.herokuapp.com/food)
 
-✨ [Deployed Heroku Site Clothing Route]()
+✨ [Deployed Heroku Site Clothing Route](https://lydia-api-server.herokuapp.com/clothes)
 
-✨ [GitHub Actions]()
+✨ [GitHub Actions](https://github.com/LydiaMT/api-server/actions)
 
-✨ [Pull Request]()
+✨ [Pull Request](https://github.com/LydiaMT/api-server/pull/3)
 
 
 ### Setup
