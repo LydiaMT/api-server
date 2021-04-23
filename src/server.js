@@ -1,5 +1,6 @@
 'use strict';
 
+require('@code-fellows/supergoose');
 const express = require('express');
 const app = express();
 
