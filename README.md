@@ -109,4 +109,5 @@ In the command line at the root directory, `run npm test` to make sure all test 
 ### Contributions 
 
 Thank you to Jarrell Houston for guidance and debugging tips
+
 [Notes on Atlas MongoDB Intigration](https://github.com/codefellows/seattle-301d72/blob/master/README.md)
