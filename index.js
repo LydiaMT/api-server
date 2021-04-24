@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 3000;
 const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  dbName: 'foodclothes'
 };
 
 mongoose.connect(process.env.MONGODB_URI, options)
