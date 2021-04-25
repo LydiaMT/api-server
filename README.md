@@ -48,7 +48,7 @@
 // `.../food/608213af8aa0de435955e12b`
 ```
 
-To add a clothing object, use the following data shape. 
+### To add a clothing object, use the following data shape. 
 
 ```JS
 // to create or update an object...
