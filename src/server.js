@@ -6,6 +6,7 @@ const app = express();
 const logger = require('./middleware/logger');
 const { foodRouter } = require('./routes/food.js');
 const { clothesRouter }= require('./routes/clothes.js');
+const { todoRouter } = require('./routes/todo.js');
 const notFound =require('./error-handlers/404.js');
 const errors = require('./error-handlers/500.js');
 
@@ -14,6 +15,7 @@ app.use(logger);
 
 app.use(clothesRouter);
 app.use(foodRouter);
+app.use(todoRouter);
 
 app.use('*', notFound);
 app.use(errors);
