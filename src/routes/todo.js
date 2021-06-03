@@ -1,6 +1,7 @@
 'use strict';
 
 const express = require('express');
+const { Error } = require('mongoose');
 
 const DataCollection = require('../models/data-collection-class.js');
 const Todo = require('../models/todo.js');
@@ -34,8 +35,15 @@ async function getOneTodo(req, res, next) {
 
 async function createTodo(req, res) {
   let content = req.body;
-  let createdTodo = await todo.create(content)
-  res.status(201).json(createdTodo);
+  console.log(content)
+  try {
+    let createdTodo = await todo.create(content)
+    res.status(201).json(createdTodo);
+  } catch(error) {
+    console.error(error)
+    res.status(500).text(error.message)
+  }
+  
 }
 
 async function updateTodo(req, res) {
