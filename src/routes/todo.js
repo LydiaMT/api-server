@@ -36,7 +36,6 @@ async function getOneTodo(req, res, next) {
 async function createTodo(req, res) {
   let content = req.body;
   console.log(content)
-  console.log(req)
   try {
     let createdTodo = await todo.create(content)
     res.status(201).json(createdTodo);
