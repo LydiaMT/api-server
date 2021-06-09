@@ -6,6 +6,10 @@
 
 ### Links and Resources
 
+✨ [Deployed Heroku Site Products Route](https://lydia-api-server.herokuapp.com/products)
+
+✨ [Deployed Heroku Site TODO Route](https://lydia-api-server.herokuapp.com/todo)
+
 ✨ [Deployed Heroku Site Food Route](https://lydia-api-server.herokuapp.com/food)
 
 ✨ [Deployed Heroku Site Clothing Route](https://lydia-api-server.herokuapp.com/clothes)
