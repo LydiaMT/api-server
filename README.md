@@ -6,17 +6,15 @@
 
 ### Links and Resources
 
-✨ [Deployed Heroku Site Products Route](https://lydia-api-server.herokuapp.com/products)
+✨ [Products Route](https://lydia-api-server.herokuapp.com/products)
 
-✨ [Deployed Heroku Site TODO Route](https://lydia-api-server.herokuapp.com/todo)
+✨ [TODO Route](https://lydia-api-server.herokuapp.com/todo)
 
-✨ [Deployed Heroku Site Food Route](https://lydia-api-server.herokuapp.com/food)
+✨ [Food Route](https://lydia-api-server.herokuapp.com/food)
 
-✨ [Deployed Heroku Site Clothing Route](https://lydia-api-server.herokuapp.com/clothes)
+✨ [Clothing Route](https://lydia-api-server.herokuapp.com/clothes)
 
 ✨ [GitHub Actions](https://github.com/LydiaMT/api-server/actions)
-
-✨ [Pull Request](https://github.com/LydiaMT/api-server/pull/3)
 
 
 ### Setup
